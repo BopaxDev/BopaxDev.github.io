@@ -6,7 +6,7 @@
     <title>Mario Nicolò De Matteis</title>
     <style>
         body {
-            font-family: "Courier New", Courier, monospace;
+            font-family: "Graphik", sans-serif;
             margin: 0;
             padding: 0;
             display: flex;
@@ -17,15 +17,28 @@
             background-color: #333;
             color: #fff;
             padding: 20px;
-            width: 25%;
+            width: 20%;
+            box-sizing: border-box;
         }
 
         .content {
             padding: 20px;
-            width: 75%;
+            width: 80%;
+            box-sizing: border-box;
         }
 
         .section {
+            margin-bottom: 20px;
+        }
+
+        .dashboard-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .dashboard-text {
+            font-size: 16px;
             margin-bottom: 20px;
         }
     </style>
@@ -33,24 +46,23 @@
 <body>
     <div class="sidebar">
         <div class="section">
-            <h2>Dashboard</h2>
-            <!-- Add your dashboard content here -->
-        </div>
-        <div class="section">
-            <h2>Projects</h2>
-            <!-- Add your projects content here -->
-        </div>
-        <div class="section">
-            <h2>Documents</h2>
-            <!-- Add your documents content here -->
-        </div>
-        <div class="section">
-            <h2>Ideas</h2>
-            <!-- Add your ideas content here -->
+            <h2>Mario Nicolò De Matteis</h2>
+            <div class="dashboard-title">Example</div>
+            <div class="dashboard-text">
+                Passionate about computer science and statistics.
+            </div>
+            <div class="section">
+                <h3>Projects</h3>
+                <ul>
+                    <li>Inkosi</li>
+                    <li>LLB</li>
+                    <li>MoversRL</li>
+                </ul>
+            </div>
         </div>
     </div>
     <div class="content">
-        <!-- Add your main content here -->
+        <!-- Add your main content for Projects, Documents, and Ideas sections here -->
     </div>
 </body>
 </html>

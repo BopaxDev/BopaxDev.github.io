@@ -11,6 +11,7 @@
             padding: 0;
             display: flex;
             height: 100vh;
+            overflow: hidden;
         }
 
         .sidebar {
@@ -19,12 +20,14 @@
             padding: 20px;
             width: 20%;
             box-sizing: border-box;
+            overflow-y: auto;
         }
 
         .content {
             padding: 20px;
             width: 80%;
             box-sizing: border-box;
+            overflow-y: auto;
         }
 
         .section {
@@ -34,12 +37,24 @@
         .dashboard-title {
             font-size: 24px;
             font-weight: bold;
+            text-align: center;
             margin-bottom: 10px;
         }
 
         .dashboard-text {
             font-size: 16px;
+            text-align: center;
             margin-bottom: 20px;
+        }
+
+        .project-list {
+            font-size: 16px;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .project-list-item {
+            margin-bottom: 10px;
         }
     </style>
 </head>
@@ -49,16 +64,28 @@
             <h2>Mario Nicolò De Matteis</h2>
             <div class="dashboard-title">Example</div>
             <div class="dashboard-text">
-                Passionate about computer science and statistics.
+                Passionate about computer science and statistics
             </div>
             <div class="section">
                 <h3>Projects</h3>
-                <ul>
-                    <li>Inkosi</li>
-                    <li>LLB</li>
-                    <li>MoversRL</li>
+                <ul class="project-list">
+                    <li class="project-list-item">Inkosi</li>
+                    <li class="project-list-item">LLB</li>
+                    <li class="project-list-item">MoversRL</li>
                 </ul>
             </div>
+        </div>
+        <div class="section">
+            <h2>Projects</h2>
+            <!-- Add your projects content here -->
+        </div>
+        <div class="section">
+            <h2>Documents</h2>
+            <!-- Add your documents content here -->
+        </div>
+        <div class="section">
+            <h2>Ideas</h2>
+            <!-- Add your ideas content here -->
         </div>
     </div>
     <div class="content">

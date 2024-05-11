@@ -9,7 +9,6 @@ body, html {
     background-image: url('background.webp');
     min-width: 100%;
     min-height: 100%;
-    background: rgba(0, 0, 0, 0.5);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,6 +46,10 @@ body, html {
     font-size: 20px;
     max-width: 80%;
     z-index: 1;
+    display: flex;
+    align-items: center; /* Centers content vertically */
+    justify-content: center; /* Centers content horizontally */
+    text-align: center;
 }
 
 .hashtag {

@@ -36,3 +36,15 @@ body, html {
 .navigation a:hover {
     color: #ccc;
 }
+
+.centered-text {
+    position: relative;
+    color: white; /* Ensures text is visible on potentially dark backgrounds */
+    font-size: 20px; /* Adjust size as necessary */
+    max-width: 80%; /* Restricts text width for readability */
+    z-index: 1; /* Ensures text appears above the background */
+}
+
+.hashtag {
+    color: #4CAF50; /* Gives hashtags a distinctive color, adjust as desired */
+}

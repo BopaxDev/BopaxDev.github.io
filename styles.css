@@ -7,10 +7,13 @@ body, html {
 
 .background-image {
     background-image: url('background.webp');
-    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -1;
+    position: fixed;
 }
 
 .menu-bar {
@@ -39,12 +42,12 @@ body, html {
 
 .centered-text {
     position: relative;
-    color: white; /* Ensures text is visible on potentially dark backgrounds */
-    font-size: 20px; /* Adjust size as necessary */
-    max-width: 80%; /* Restricts text width for readability */
-    z-index: 1; /* Ensures text appears above the background */
+    color: white;
+    font-size: 20px;
+    max-width: 80%;
+    z-index: 1;
 }
 
 .hashtag {
-    color: #4CAF50; /* Gives hashtags a distinctive color, adjust as desired */
+    color: #4CAF50;
 }

@@ -1,4 +1,5 @@
 body, html {
+    cursor:crosshair;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -6,7 +7,7 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: Arial, sans-serif; /* Sets a clean, modern font */
+    font-family: Arial, sans-serif;
 }
 
 .background-image {
@@ -78,5 +79,5 @@ body, html {
 }
 
 .navigation a:hover, .centered-text .hashtag:hover {
-    color: #ccc; /* Adds a hover effect */
+    color: #ccc;
 }

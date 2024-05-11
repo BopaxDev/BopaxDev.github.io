@@ -3,80 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mario Nicolò De Matteis</title>
-    <style>
-        body {
-            font-family: "Graphik", sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            height: 100vh;
-            overflow: hidden;
-        }
-
-        .sidebar {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            width: 20%;
-            box-sizing: border-box;
-            overflow-y: auto;
-        }
-
-        .content {
-            padding: 20px;
-            width: 80%;
-            box-sizing: border-box;
-            overflow-y: auto;
-        }
-
-        .section {
-            margin-bottom: 20px;
-        }
-
-        .dashboard-title {
-            font-size: 24px;
-            font-weight: bold;
-            text-align: center;
-            margin-bottom: 10px;
-        }
-
-        .dashboard-text {
-            font-size: 16px;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        .project-list {
-            font-size: 16px;
-            list-style-type: none;
-            padding: 0;
-        }
-
-        .project-list-item {
-            margin-bottom: 10px;
-        }
-    </style>
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="sidebar">
-        <div class="section">
-            <h2>Projects</h2>
+    <header>
+        <div class="menu-bar">
+            <div class="name">Mario Nicolò De Matteis</div>
+            <div class="navigation">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
         </div>
-        <div class="section">
-            <h2>Documents</h2>
-        </div>
-        <div class="section">
-            <h2>Ideas</h2>
-        </div>
-    </div>
+    </header>
+    <div class="background-image"></div>
 
-    <div class="content">
-        <h2>Mario Nicolò De Matteis</h2>
-        <div class="dashboard-title">Example</div>
-        <div class="dashboard-text">
-            Passionate about computer science and statistics
-        </div>
-    </div>
+    <script src="script.js"></script>
 </body>
 </html>

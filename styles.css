@@ -1,0 +1,37 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.background-image {
+    background-image: url('your-image.jpg'); /* Replace 'your-image.jpg' with your actual image path */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    padding: 10px 20px;
+}
+
+.name, .navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a {
+    margin-left: 20px;
+}
+
+.navigation a:hover {
+    color: #ccc;
+}

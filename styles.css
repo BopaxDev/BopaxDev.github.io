@@ -15,7 +15,7 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Calibri', 'Courier New', Courier, monospace, sans-serif
+    font-family: 'Reddit Sans', 'Courier New', Courier, monospace, sans-serif
 }
 
 .background-image {

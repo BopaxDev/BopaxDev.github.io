@@ -15,10 +15,10 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Reddit Sans', 'Courier New', Courier, monospace, sans-serif
+    font-family: 'Reddit Sans', 'Courier New', Courier, monospace, sans-serif;
 }
 
-.background-image {
+.home-background {
     position: fixed;
     top: 0;
     left: 0;
@@ -72,17 +72,18 @@ body, html {
 
 .menu-bar {
     display: flex;
+    position: absolute;
     justify-content: space-between;
     align-items: center;
+    top: 0;
+    left: 0;
     width: 100%;
     color: white;
     padding: 24px 24px;
     background: rgba(0, 0, 0, 0.5);
-    box-sizing: border-box;
-    position: absolute;
-    top: 0;
-    left: 0;
     z-index: 3;
+    box-sizing: border-box;
+    border-bottom: 1px solid;
 }
 
 .overlay {
@@ -108,12 +109,13 @@ body, html {
     z-index: 3;
 }
 
-.banner {
+.home-banner {
     position: absolute;
     width: 30%;
     bottom: 0;
     right: 0;
     padding-left: 16pt;
+    padding-right: 16pt;
     margin-right: 32pt;
     margin-bottom: 32pt;
     color: white;
@@ -122,6 +124,50 @@ body, html {
     z-index: 3;
     background: rgba(0, 0, 0, 0.5);
     box-sizing: border-box;
+    border: 1px solid;
+}
+
+.title-first-banner {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+    padding-bottom: 4pt;
+}
+
+.research-works-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(0%, 0%);
+    width: 80%;
+    height: 80%;
+    background: rgba(255, 255, 255, 0.5);
+    z-index: 3;
+}
+
+.research-works {
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 4;
+    color: #333;
+    text-align: center;
+}
+
+.work {
+    display: table;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 16px;
+    text-align: left;
+}
+
+.work-title {
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
 }
 
 .name, .navigation a, .left-text .hashtag {

@@ -143,6 +143,7 @@ a {
     z-index: 4;
     color: #333;
     text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.7);
 }
 
 .work-row {
